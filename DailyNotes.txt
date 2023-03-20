@@ -1,0 +1,38 @@
+Language:
+=========
+
+
+
+Programming Language:
+=====================
+		POP 					OOP
+B,BCPl,C,COBOl,Photon...		java,c++,python,.net,smalltalk
+
+			1)Performance
+			2)Security
+
+
+					OOPS	->inheritance,polymorphisam,abstraction,encapsulation
+					
+			1)Performance	inheritance,polymorphisam
+			2)Security		abstraction,encapsulation	
+
+Why JAVA:
+=========
+
+1995 JDK1.0
+
+Java Development Kit
+
+https://www.oracle.com/in/java/technologies/downloads/#java8-windows
+
+
+
+
+
+
+
+
+
+
+
