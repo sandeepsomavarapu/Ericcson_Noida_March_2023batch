@@ -194,9 +194,7 @@ class Hello extends Demo    class A
 5 levels 
 
 
-Multiple inheritance is not supported by java @ class level
 
-Multiple inheritance is  supported by java @ interface level
 
 
 concrete method
@@ -234,3 +232,102 @@ interface Demo
 
 //we cannot create object for abstract class and interface 
 }
+
+
+Multiple inheritance is not supported by java @ class level
+
+Multiple inheritance is  supported by java @ interface level
+
+
+interface Parent 			interface parent1
+
+		m1();				m1();
+
+
+
+
+class Child implements Parent,Parent1
+
+main()
+{
+Child child=new Child();
+	child.m1()
+
+}
+
+m1()
+{
+
+}
+
+Polymorphisam:
+==============
+many forms 	
+
+		method overloading / compile time polymorphisam /static binding
+		method overriding /runtime polymorphisam / dynamic binding 
+
+method overloading :
+=====================
+		method name is same signature is different 
+								no of params
+								order of params
+								type of params
+
+
+method overriding:
+===================
+		method name is same body/implementation is different 
+
+
+class Parent
+{
+wealth()
+{
+return "1000crores";
+}
+marriage()
+{
+
+return "xyz";
+}
+
+}
+class Shreyansh extends Parent 
+{
+@Override
+marriage()
+{
+
+return "abc";
+}
+}
+
+Encapsulation,this,super,final,public,private,protected,default,constructor
+
+
+
+constructor:
+============ ex2 
+
+Welcome
+
+		classname objname=new classname();
+		Welcome wel=new Welcome();
+
+		
+1)it is used intialize the object
+
+2)used to provide defualt values for instance variables
+
+
+constrctor name class name must be same 
+
+constrctor looks like method
+
+
+default constructor
+param constrctor
+
+
+
