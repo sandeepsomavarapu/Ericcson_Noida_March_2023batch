@@ -24,7 +24,156 @@ Why JAVA:
 
 Java Development Kit
 
+JAVA setup 
+
 https://www.oracle.com/in/java/technologies/downloads/#java8-windows
+
+
+JDK-->JRE-->JVM
+
+
+.html,.cpp,.py,.java
+
+
+alphabets-26
+telugu-56
+
+welcome to ericcson
+
+keywords -->53-->lower case 
+
+Compalition is a process of converting source code to byte code (compiler )
+
+JVM will execute .class 
+
+https://en.wikipedia.org/wiki/Java_version_history
+
+//JVM-->0's 1's -->binary /byte code   --->byte code 
+
+//compiler -->user understandble --->machine under
+//            source code --->byte code 
+//					.java --->.class   --->execute JVM
+
+
+					JAVA
+	JSE 			JEE        		JME 	
+
+
+Different kinds of applications:
+================================
+
+
+1)Standalone/desktop applications  Ex:vlc media,antivirus ,eclipse,notepad++ JSE:corejava,awt,swings,applets
+
+2)web applications			insta,fb,gmail,.....URL JEE:spring,springboot,mvc,servlet,jsp,jsf,jpa......
+
+3)distributed applications		Banking ,webservices(REST)
+
+4)mobile appllications			JME:Android 
+
+
+	IDE:eclipse,intellji,net beans,myeclipse,vscode...
+
+
+Identifiers:
+=============
+any name in java -->variable,class,interface,method name.....
+
+
+		a-z
+		A-Z
+		0-9
+		$
+		_
+
+Variables:
+============
+		sandeepjavatrainer 	9494348734	
+
+			variable syntax:
+
+				datatype varname=value
+			
+					byte age=29;
+
+
+DataTypes
+=============
+
+PDT 			NPDT(String,arrays....)
+
+
+		PDT
+8 	
+byte	1 byte		-128 to 127
+short	2 bytes		-32768 to 32767
+int 	4 bytes		-2147483768 to 2147583767
+long	8 bytes		 				long	age=29;
+
+float    4bytes			 32322.5043434343
+double	 8bytes				32322.50434343434343
+
+boolean	  1  bit			true-1,false-0
+char 	  2 bytes        'M'/'F'
+
+		1 byte
+
+			C->ENGLISH	ASCII
+
+
+
+2 types variables
+
+	1)local variables		inside the method 
+						
+	2)global variables		outside the method
+	
+
+instance and static variables/methods/block :   java welcome
+==========================================
+1)syntax:
+===========
+	static int countryCode=91;//static 
+			int empId=111;//instance
+2)memory
+=========
+		instance variables will get memory space when ever create object//heap
+		static variables will get memory space when ever class loading into jvm (Only once)//method 
+
+		class->logical ,object->physical 
+3)Access
+===========
+		static variables can be accessed by using classname
+		instance variables can be accessed by using objref
+
+
+4)Usage:
+========
+   to represent common data like orgname,countryname,schoolname,clgname...go for static 
+   to represent unique data like empid,aadhar,padn,contact,..go for instance 
+
+
+
+Methods://functions
+========
+								void		
+accessmodifier static/instance returntype methodname(param list)
+{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
