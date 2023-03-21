@@ -1,3 +1,5 @@
+										DAY-1
+										======
 Language:
 =========
 
@@ -168,7 +170,8 @@ package :
 https://docs.oracle.com/javase/8/docs/api/
 
 
-
+											   DAY-2
+											===========
 
 OOPS:
 -----
@@ -330,4 +333,87 @@ default constructor
 param constrctor
 
 
+Final:
+=========
 
+before the variable
+		before the method
+		before the class
+		
+final :we can't modify final variable value
+		we can't override final method
+		final classes can'tbe inherted 
+		
+		
+
+public :every where
+private:in class
+protected:inside package and outside package when it is sub
+default:package
+
+
+
+Encapsulation:
+==============
+
+warpping up the data and related methods together 
+
+class
+
+data private 
+methods public 
+
+String ,StringBuffer,StringBuilder
+
+		
+		
+		public void m1()
+		{
+		
+		}
+
+		public synchronized void m2()
+		{
+		
+		}
+
+
+
+
+
+
+
+												DAY-3
+												=====
+Exception Handling
+
+
+
+IOStreams
+
+
+
+
+
+
+multi threading
+
+
+												DAY-4
+												=====
+
+collections
+
+
+
+java8 features
+
+
+
+
+jdbc mysql
+
+												DAY-5
+												=====
+												
+Pending concepts & Case Study												
