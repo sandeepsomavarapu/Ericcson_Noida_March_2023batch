@@ -163,25 +163,74 @@ accessmodifier static/instance returntype methodname(param list)
 
 
 }
+package :
+==========
+https://docs.oracle.com/javase/8/docs/api/
 
 
 
 
+OOPS:
+-----
+
+
+Inheritance:
+============
+		Code Reusability-->performance
+
+extends,implements
+
+class Demo
+{
+//100 methods
+1
+}
+
+class Hello extends Demo    class A
+{
+//50 methods
+}
+
+5 levels 
+
+
+Multiple inheritance is not supported by java @ class level
+
+Multiple inheritance is  supported by java @ interface level
+
+
+concrete method
+accessmodifier static/instance returntype methodname(param list)
+{
 
 
 
+}
+
+public void m1()//concrte method
+{
 
 
+}
+abstract method
+public abstract void m1();
 
+class :class is a collection of only concrete methods   0%
 
+abstract class :abstract class is a combination both concrete and abstract methods
+					0-100%
+interface  :interface is a combination of only abstract methods
+					100%
 
+Abstraction:hiding the implementation showcasing functionalities 
+		abstract classes
+		interfaces 
 
+interface Demo
+{
+//by default interface methods are public abstract 
 
+//interface variables are public static final
 
-
-
-
-
-
-
-
+//we cannot create object for abstract class and interface 
+}
