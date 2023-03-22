@@ -385,10 +385,44 @@ String ,StringBuffer,StringBuilder
 
 												DAY-3
 												=====
-Exception Handling
+Exception Handling:
+====================
+
+with out exception handling
+	
+	1)system defined error messages
+	2)abnormal termination
+
+with  exception handling
+	
+	1)user friendly error messages
+	2)normal termination
+
+		try,catch,finally,throw,throws
+	
+		
+		throw :which is used to throw an exception explicitly 
+		
+				throw new AE/AIOE/NPE....ANV/ICE....
+		
+		
+		throws 
+		
+			which is used indicate/inform/notify the caller in the method
 
 
+		public void m1() throws  Exception
+		{
+		
+		
+		}
 
+ predefined 
+ 
+ userdefined : class AgeNotValid extends Exception{}
+ 
+			param constructor 
+ 
 IOStreams
 
 
