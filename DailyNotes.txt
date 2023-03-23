@@ -378,7 +378,8 @@ String ,StringBuffer,StringBuilder
 		}
 
 
-
+ The automatic conversion of primitive data types into its equivalent Wrapper type is known
+ as BOXING and opposite operation is known as UNBOXING.
 
 
 
@@ -425,18 +426,154 @@ with  exception handling
  
 IOStreams
 
-
+		stream     java----->demo.txt
 
 
 
 
 multi threading
+================
 
+multi tasking 
+
+		2
+1)process based multi tasking :executing several simutaniously where each task is sepearate indepdent process
+2)thread based multi tasking:executing several simutaniously where each task related to same process
+
+
+class Test
+{
+
+segment 1 -2 hours
+
+
+
+
+segment 2
+
+
+
+
+segment 3
+
+
+segment n
+
+
+}
+
+
+	2 ways 
+	
+	1)implements Runnable
+	2)extends Thread class			java.lang 
+
+			interface 							    0-n
+			functional interface	(Runnable)		  1
+			marker interface (Serializable)           0
+
+class MyThread implements Runnable 				Functional interface-->SAM
+{
+
+run()
+{
+code 
+}
+
+
+}
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
 
 												DAY-4
 												=====
 
 collections
+============
+				String name="sandeep";
+						name="suresh";
+	
+			arrays: String names[]={"suresh","mahesh","naresh","rajesh"}
+			
+					int ids[]=new int[5];
+					
+					ids[1]=123;
+					ids[5]=234;AIOE
+
+				index :0
+
+Limitations of Arrays:
+=====================
+1)only Homogeneous data allowed 
+
+2)fixed in size 
+
+3)utility methods
+
+
+Collections :
+=============
+1)both Homogeneous and heterogeneous data allowed 
+
+2)not fixed in size /growable in nature 	Arraylist -->10 16 25 -->(cc*3/2)+1
+
+3)lots utility methods
+
+		int  a[]=new int[9];
+		Integer a1[]=new Integer[10];
+		
+		
+		Arraylist<Integer> objs=new Arraylist<Integer>();
+
+Databases:=
+
+		oracle,mysql,postgres,mongodb,db2
+
+mysql:
+======
+mysql
+
+https://dev.mysql.com/downloads/installer/
+
+
+RDBS
+
+Database 
+
+tables
+-->rows & columns
+eid ename  esal  address
+1     xyz	100	 hyd
+
+
+DDl:create,alter,drop,truncate,rename
+
+DML:insert,update,delete
+
+DRL:select
+
+		JAVA Sunmicrosystem
+		
+		JDBC API Sunmicrosystem
+
+
+			java ---->database 
+
+1)loading the driver class 
+
+2)create the connection
+
+3)
+
+4)
+5)		
+
+
+
+
+
+
+
+
 
 
 
